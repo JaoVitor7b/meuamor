@@ -1,68 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosso Dia dos Namorados</title>
-
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nosso Dia dos Namorados</title><link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-    <div class="hearts"></div>
-
-    <!-- HEADER -->
-
-    <header>
-
-        <h1> Feliz Dia dos Namorados </h1>
-
-        <p>
-            Para a mulher mais especial do mundo, dedico esta homenagem com todo o meu carinho, amor e afeto.
-        </p>
-
+<div class="hearts" aria-hidden="true"></div>
+<main class="site-card" id="inicio">
+  <div class="top-area">
+    <nav class="navbar" aria-label="Navegação principal">
+      <a class="brand" href="#inicio">Nosso <span>amor♡</span></a>
+      <div class="nav-links"><a href="#inicio">Início</a><a href="#historia">Nossa história</a><a href="#mensagem">Mensagem</a></div>
+    </nav>
+    <header class="hero">
+      <div class="hero-text"><span class="eyebrow">22 DE JUNHO DE 2024 · PARA SEMPRE</span>
+        <h1>FELIZ DIA DOS <em>NAMORADOS</em></h1>
+        <p>Para a mulher mais especial do mundo, dedico esta homenagem com todo o meu carinho, amor e afeto.</p>
+        <div class="hero-actions"><a class="primary-btn" href="#historia">Nossa história ↗</a><a class="secondary-btn" href="#mensagem">Uma mensagem</a></div>
+      </div>
+      <div class="hero-visual"><img src="img/primeiro.jpeg" alt="Nós dois juntos"><span class="photo-note">Você é meu melhor presente ♡</span></div>
     </header>
-
-    <!-- HERO -->
-
-    <section class="hero">
-
-        <img src="img/primeiro.jpeg" alt="Nós dois juntos">
-
-        <div class="hero-text">
-
-            <h2>Você é meu melhor presente </h2>
-
-            <p>
-                Não há palavras no mundo que possam expressar o quão sou grato por acordar todos os dias com o seu "bom
-                dia". Você é o motivo pelo qual batalho todos os dias, na esperança de construir um futuro melhor. Ter
-                você ao meu lado me dá forças para seguir em frente e acreditar que os melhores dias ainda estão por
-                vir.
-            </p>
-
-        </div>
-
-    </section>
-
-    <!-- CONTADOR -->
-
-    <section class="counter">
-
-        <h2>Estamos juntos há:</h2>
-
-        <div id="tempo"></div>
-
-        <p class="tempo-subtitulo">
-            E cada segundo vale a pena
-        </p>
-
-    </section>
-
+  </div>
+  <section class="highlights" aria-label="Nossa história em capítulos">
+    <div class="highlight lead"><span class="small-label">UM AMOR QUE CRESCE</span><strong>∞</strong><span>momentos para viver ao seu lado</span></div>
+    <div class="highlight"><span class="small-label">01 / NÓS DOIS</span><h2>Meu melhor presente</h2><p>Você me dá forças para acreditar que os melhores dias ainda estão por vir.</p><a href="#historia">Ver memórias ↗</a></div>
+    <div class="highlight"><span class="small-label">02 / CADA INSTANTE</span><h2>O nosso tempo</h2><p>Não há palavras para expressar o quanto sou grato por ter você comigo.</p><a href="#tempo-juntos">Ver contador ↗</a></div>
+    <div class="highlight"><span class="small-label">03 / COM CARINHO</span><h2>Para você</h2><p>Uma pequena surpresa feita para a pessoa mais importante da minha vida.</p><a href="#mensagem">Abrir mensagem ↗</a></div>
+  </section>
+</main>
+<section class="counter content-card" id="tempo-juntos"><span class="eyebrow">NOSSA JORNADA</span><h2>Estamos juntos há</h2><div id="tempo" aria-live="off"></div><p class="tempo-subtitulo">E cada segundo vale a pena.</p></section>
     <!-- ÁLBUM -->
 
-    <section class="album-section">
+    <section class="album-section content-card" id="historia">
 
         <h2>Nossa História</h2>
 
@@ -136,7 +105,7 @@
 
     <!-- MENSAGEM -->
 
-    <section class="message">
+    <section class="message content-card" id="mensagem">
 
         <h2> Uma mensagem para você </h2>
 
@@ -162,16 +131,4 @@
 
     </section>
 
-    <!-- RODAPÉ -->
-
-    <footer>
-
-        <p>
-            Feito com amor especialmente para você.
-        </p>
-
-    </footer>
-
-    <script src="script.js"></script>
-
-</body>
+<footer><p>Feito com amor especialmente para você. ♡</p></footer><script src="script.js"></script></body></html>

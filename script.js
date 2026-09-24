@@ -20,7 +20,7 @@ function mostrarMensagem() {
 
 // =========================
 // CONTADOR
-// =========================FF
+// =========================
 
 const dataNamoro =
     new Date("2024-06-22T00:00:00");
