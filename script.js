@@ -12,7 +12,7 @@ function mostrarMensagem() {
             <br>
             Embora simples, cada gesto de carinho seu tem um significado único para mim. Sou profundamente grato por você ter aceitado meu amor e por caminhar ao meu lado. Em cada abraço, sorriso e olhar, sinto que nos tornamos um só coração, unidos por um amor sincero, puro e eterno.
             <br><br>
-            Eu te amo mil milhões minha princesa, e sempre a amarei! ❤️
+            Eu te amo mil milhões minha princesa, e sempre a amarei!
         `;
 
     surpresa.style.opacity = "1";
@@ -85,7 +85,7 @@ function atualizarTempo() {
 
         tempo.innerHTML =
             `
-            💜 ${anos} ano(s),
+            ${anos} ano(s),
             ${meses} mês(es),
             ${dias} dia(s),
             ${horas} hora(s),
